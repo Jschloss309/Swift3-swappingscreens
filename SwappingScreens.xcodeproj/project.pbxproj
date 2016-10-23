@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		8B3B29C91DBC37F1007E3CF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B29C81DBC37F1007E3CF0 /* AppDelegate.swift */; };
-		8B3B29CB1DBC37F1007E3CF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B29CA1DBC37F1007E3CF0 /* ViewController.swift */; };
+		8B3B29CB1DBC37F1007E3CF0 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B29CA1DBC37F1007E3CF0 /* LoginVC.swift */; };
 		8B3B29CE1DBC37F1007E3CF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B29CC1DBC37F1007E3CF0 /* Main.storyboard */; };
 		8B3B29D01DBC37F1007E3CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B29CF1DBC37F1007E3CF0 /* Assets.xcassets */; };
 		8B3B29D31DBC37F1007E3CF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B29D11DBC37F1007E3CF0 /* LaunchScreen.storyboard */; };
+		8B3B29DB1DBC3CDA007E3CF0 /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B29DA1DBC3CDA007E3CF0 /* MusicListVC.swift */; };
+		8B3B29DD1DBC47FA007E3CF0 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B29DC1DBC47FA007E3CF0 /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B3B29C51DBC37F1007E3CF0 /* SwappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3B29C81DBC37F1007E3CF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B3B29CA1DBC37F1007E3CF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B3B29CA1DBC37F1007E3CF0 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		8B3B29CD1DBC37F1007E3CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B3B29CF1DBC37F1007E3CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B3B29D21DBC37F1007E3CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B3B29D41DBC37F2007E3CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3B29DA1DBC3CDA007E3CF0 /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		8B3B29DC1DBC47FA007E3CF0 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				8B3B29C81DBC37F1007E3CF0 /* AppDelegate.swift */,
-				8B3B29CA1DBC37F1007E3CF0 /* ViewController.swift */,
+				8B3B29CA1DBC37F1007E3CF0 /* LoginVC.swift */,
 				8B3B29CC1DBC37F1007E3CF0 /* Main.storyboard */,
 				8B3B29CF1DBC37F1007E3CF0 /* Assets.xcassets */,
 				8B3B29D11DBC37F1007E3CF0 /* LaunchScreen.storyboard */,
 				8B3B29D41DBC37F2007E3CF0 /* Info.plist */,
+				8B3B29DA1DBC3CDA007E3CF0 /* MusicListVC.swift */,
+				8B3B29DC1DBC47FA007E3CF0 /* PlaySongVC.swift */,
 			);
 			path = SwappingScreens;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B3B29CB1DBC37F1007E3CF0 /* ViewController.swift in Sources */,
+				8B3B29CB1DBC37F1007E3CF0 /* LoginVC.swift in Sources */,
+				8B3B29DD1DBC47FA007E3CF0 /* PlaySongVC.swift in Sources */,
+				8B3B29DB1DBC3CDA007E3CF0 /* MusicListVC.swift in Sources */,
 				8B3B29C91DBC37F1007E3CF0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +310,7 @@
 				8B3B29D91DBC37F2007E3CF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
